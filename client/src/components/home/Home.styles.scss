@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f2eeee;
+}
+
+.home {
+
+    .header-wrapper {
+        background-color: white;
+
+        header {
+            width: 90%;
+            margin: auto;
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+
+
+
+            form {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border: 1px solid black;
+                padding: 3px 10px;
+                column-gap: 10px;
+                border-radius: 5px;
+
+                input {
+                    width: 200px;
+                    height: 25px;
+                    border: none;
+                    outline: none;
+                }
+
+                button {
+                    all: unset;
+
+                    img {
+                        width: 20px;
+                    }
+                }
+            }
+
+
+        }
+
+    }
+
+    .body {
+        width: 90%;
+        margin: auto;
+
+        h1 {
+            border-bottom: 1px solid rgb(111, 111, 111);
+            padding-bottom: 10px;
+        }
+
+        .task-add-btn {
+            margin: 30px 0;
+
+            button {
+                all: unset;
+                cursor: pointer;
+
+                span {
+                    width: 20px;
+                    height: 20px;
+                    display: inline-block;
+                    background-color: black;
+                    border-radius: 100%;
+                    color: white;
+                    text-align: center;
+                    margin-right: 10px;
+                }
+            }
+        }
+
+
+    }
+
+}

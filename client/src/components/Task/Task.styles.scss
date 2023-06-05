@@ -1,0 +1,44 @@
+.task-card {
+    border: 1px solid #b9b9b9;
+    padding: 0 15px 15px 15px;
+    width: 20%;
+
+    background-color: white;
+    border-radius: 5px;
+
+    h2 {
+        text-align: center;
+    }
+
+    p {
+        text-align: justify;
+    }
+
+    .task-card-icons {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20px;
+
+        &>div {
+            display: flex;
+            align-items: center;
+            column-gap: 10px;
+        }
+
+        button {
+            all: unset;
+            cursor: pointer;
+        }
+    }
+
+}
+
+.all-tasks {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 95%;
+    margin: auto;
+}
